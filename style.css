@@ -11,6 +11,46 @@
 }
 
 
+.dropdown {
+	overflow: hidden;
+	display: inline-block;
+	margin-left: 2.5vw;
+	vertical-align: top;
+}
+
+.dropdown .dropknapp {
+	border: none;
+	outline: none;
+	color: white;
+	background-color: inherit;
+	font-family: inherit;	
+	font-size: 1.4vw;
+	letter-spacing: 1px;
+
+}
+
+.dropdown-innehåll {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 10vw;
+}
+
+.dropdown-innehåll a {
+  float: none;
+  color: #E6E6E6;
+  font-size: 1.4vw;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-innehåll {
+  display: block;
+  border: solid black 2px;
+}
+
+
 body {
 	background-color: #E6E6E6;
 }
@@ -89,16 +129,9 @@ input{
 	margin-bottom: auto;
 	display: inline-block;
 	top: 10px;
-	vertical-align: top;
 }
 
-#dropdown-products {
-	display: none;
-  }
-  
-  #menu-products:hover #dropdown-products {
-	display: block;
-  }
+
 
 li {
 	display: inline-block;
