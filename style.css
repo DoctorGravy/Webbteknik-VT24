@@ -81,13 +81,27 @@ input{
 }
 
 .kat {
-	display: inline-block;
 	color: #E6E6E6;
 	margin-left: 2.5vw;
 	font-size: 1.4vw;
 	letter-spacing: 1px;
 	margin-top: auto;
 	margin-bottom: auto;
+	display: inline-block;
+	top: 10px;
+	vertical-align: top;
+}
+
+#dropdown-products {
+	display: none;
+  }
+  
+  #menu-products:hover #dropdown-products {
+	display: block;
+  }
+
+li {
+	display: inline-block;
 }
 
 nav {
