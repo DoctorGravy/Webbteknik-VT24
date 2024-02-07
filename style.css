@@ -1,10 +1,15 @@
+@font-face {
+    font-family: mylocalfont;
+    src: url("C:\Users\johnn\Desktop\Pusselbutiken HTML\Webbteknik-VT24\Impact LT Std Roman.otf");
+}
+
 * {
 	margin: 0;
 	padding: 0;
-    font-family: myFirstFont;
-    src:local("C:\Users\johnn\Desktop\Pusselbutiken HTML\Webbteknik-VT24\Impact LT Std Roman.otf");
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-family: mylocalfont;
 }
+
 
 body {
 	background-color: #E6E6E6;
