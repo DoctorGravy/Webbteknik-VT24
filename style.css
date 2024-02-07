@@ -650,3 +650,35 @@ table,tr,th,td {
 	border: 1px black solid;
 	letter-spacing: 1px;
 }
+
+@media screen and (max-width: 600px) {
+	.pbakgrund {
+		width: 44vw;
+		height: 30vw;
+	}
+
+	.bild {
+		width: 40vw;
+		height: 25vw;
+	}
+
+	.img1 {
+		margin: auto;
+		display: block;
+		height: 25vw;
+	}
+
+	.bildtext {
+		font-size: 2vw;
+	}
+	
+	.reapristext{
+		font-size: 2vw;
+		margin-left: 30vw;
+	}
+	
+	.pristext{
+		font-size: 2vw;
+		margin-left: 31vw;
+	}
+}
