@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sv">
+	<head>
+		<title>Logga In</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Johnny Nordström">
+		<meta name="description" content="Logga In sida för Pusselbutiken">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div id="title">
+				<h1 id="logotext"><a href="index.html"><span style="color:#0030AD;">Pussel</span>butiken.se</a></h1> 
+				<input id="search" type="text" placeholder="Sök bland våra pussel.." >
+				<img src="bilder/Vector.png" id="rolf" alt="logg in dude">
+				<h1 id="loggain"><a href="loggain.html"><span style="color:#757575;">Logga In</span></a></h1>
+				<h1 id="registrera">Skapa Konto</h1>
+				<a href="kundvagn.html"><img src="bilder/Cart.png" id="cart" alt="vagn"></a>
+			</div>
+			<nav>
+				<p class="kat">Antal Bitar</p>
+				<p class="kat">Tillverkare</p>
+				<p class="kat">Motiv</p>
+				<p class="kat">Eget Motiv</p>
+				<p class="kat">Fler Pussel Typer</p>
+				<p class="kat">Övrigt</p>
+			</nav>
+		</header>
+		<div id="loggainbox">
+			<p id="loggain2">Logga In</p>
+			<p id="loggaintext">Fortsätt till<br> Pusselbutiken</p>
+			<form>
+				<p class="formtext">Epost:</p>
+				<input type="email" class="loggainruta" name="användarn">
+				<p class="formtext">Lösenord:</p>
+				<input type="password" class="loggainruta" name="lösen"><br>
+				<button type="submit" id="knapp">Logga In</button>
+				<input id="komi" type="checkbox" name="komi" checked>
+    				<label id="komih" for="komi">Fortsätt vara inloggad</label>
+			</form>
+			<a href="https://www.facebook.com/pusselbutiken/?ref=embed_page" target="_blank"><img src="bilder/facebook.png" id="fb" alt="face"></a>
+		</div>
+	</body>
+</html>

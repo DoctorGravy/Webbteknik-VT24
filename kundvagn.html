@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="sv">
+	<head>
+		<title>Kundvagn</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Johnny Nordström">
+		<meta name="description" content="Kundvagn för Pusselbutiken">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div id="title">
+				<h1 id="logotext"><a href="index.html"><span style="color:#0030AD;">Pussel</span>butiken.se</a></h1> 
+				<input id="search" type="text" placeholder="Sök bland våra pussel.." >
+				<img src="bilder/Vector.png" id="rolf" alt="logg in dude">
+				<h1 id="loggain"><a href="loggain.html"><span style="color:#757575;">Logga In</span></a></h1>
+				<h1 id="registrera">Skapa Konto</h1>
+				<a href="kundvagn.html"><img src="bilder/Cart.png" id="cart" alt="vagn"></a>
+			</div>
+			<nav>
+				<p class="kat">Antal Bitar</p>
+				<p class="kat">Tillverkare</p>
+				<p class="kat">Motiv</p>
+				<p class="kat">Eget Motiv</p>
+				<p class="kat">Fler Pussel Typer</p>
+				<p class="kat">Övrigt</p>
+			</nav>
+		</header>
+		<div id="kundruta">
+			<h2 id="kundtext">Kundvagn</h2>
+		</div>
+		<div class="vagnruta">
+			<div class="bild3">
+				<img class="img3" src="bilder/pussel1.png" alt="pussel1">
+				<h2 class="titeltxt">Wasgij #04: A Day to Remember! (1000)</h2>
+				<p class="beskrivningtxt">I Jumbos Wasgij serie pusslar du inte det motiv du ser på bilden,
+					utan det människorna på bilden ser! Ett extra roligt pussel för
+					dig som gillar pusselutmaningar. Bröllopsceremonin är nästan avslutad
+					och fotografen vill fånga det lyckliga parets glädje med alla sina
+					nära och kära omkring sig. När fotografen räknar ner "3...2..."
+					blir brudgummen chockad över att se något bakom linsen, något
+					som är på väg att förstöra detta magiska ögonblick! Föreställ
+					dig att du är brudgummen, vars käke har sjunkit under midjan,
+					vad kan vara på väg att förstöra hans dag?
+				</p>
+			</div>
+			<div class="antalruta">
+					<h3 class="kundtext2"> - 1 +</h3>
+			</div>
+			<div class="prisruta2">
+				<h3 class="prisrutatext"><span style="color:red;">149 kr </span>(169 kr)</h3>
+			</div>
+		</div>
+		<div class="vagnruta">
+			<div class="bild3">
+				<img class="img3" src="bilder/pussel10.png" alt="pussel1">
+				<h2 class="titeltxt">Wasgij? Destiny #04: The Wasgij Games! (1000)</h2>
+				<p class="beskrivningtxt">Wasgij serien Destiny pusslar du inte det motiv
+					du ser på bilden av pusselasken, istället lägger du motivet i en annan
+					tidsepok! Ett extra roligt pussel för dig som gillar pusselutmaningar.
+					Colosseum är slutsålt och fans från hela världen har samlats för att
+					bevittna sporthistoria, när idrottare tävlar om att vinna guld i Wasgij-spelen.
+					Men hur annorlunda skulle Wasgij-spelen se ut idag? Kommer det fortfarande att
+					vara blod, svett och tårar som symboliserar dessa spel? Eller kommer den
+					moderna eran att vara mer lättsam? Pussla och ta dig in i framtiden!
+				</p>
+			</div>
+			<div class="antalruta">
+					<h3 class="kundtext2"> - 1 +</h3>
+			</div>
+			<div class="prisruta2">
+				<h3 class="prisrutatext"><span style="color:red;">149 kr </span>(169 kr)</h3>
+			</div>
+		</div>
+		<div id="summa">		
+			<div class="summaruta">
+				<h2 class="summatext">Pris: 298kr</h2>
+			</div>
+			<div class="summaruta">
+				<h2 class="summatext">Pris utan moms: 223.5kr</h2>
+			</div>
+			<form >
+				<div id="fraktruta">
+					<input id="frakt1" type="radio" checked name="fraktSvar">
+						<label class="fraktbeskrivning" for="frakt1">Postnord: 49kr</label><br>
+					<input id="frakt2" type="radio" name="fraktSvar">
+						<label class="fraktbeskrivning" for="frakt2">DHL 59kr</label><br>
+					<input id="frakt3" type="radio" name="fraktSvar">
+						<label class="fraktbeskrivning" for="frakt3">Hemleverans: 175kr</label>
+				</div>
+				<button type="submit" id="köp">Betala</button>
+			</form>
+		</div>
+	</body>
+</html>
