@@ -743,3 +743,9 @@ li {
 		margin-left: 31vw;
 	}
 }
+
+@media print{
+	nav{
+		visibility: hidden;
+	}
+}
