@@ -18,7 +18,6 @@ menuItems.forEach(function(item) {
     });
 });
 
-
 function mouseOver(variable) {
 	variable.style.color = "red";
 }
@@ -49,7 +48,10 @@ ImageArray[1] = '2.png';
 ImageArray[2] = '3.png';
 ImageArray[3] = '4.png';
 
-document.getElementsByClassName("kategorilänk").addEventListener("mouseover", mouseOver);
+$("#hidden").click(function(){
+	$("video").toggle();
+});
 
-
-
+$("#fade").click(function(){
+	$("li").fadeToggle("slow");
+});

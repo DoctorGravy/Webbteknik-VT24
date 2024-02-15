@@ -172,8 +172,6 @@ nav {
 	color: #006EC8;
 }
 
-
-
 .pbakgrund {
 	margin-top: 3vw;
 	margin-left: 1vw;
@@ -699,10 +697,11 @@ video {
 
 table,tr,th,td {
 	color: #E6E6E6;
+	background-color: #757575;
 	border: 1px black solid;
 	letter-spacing: 1px;
 	margin-left: 1vw;
-	font-size: 2vw;
+	font-size: 32px;
 }
 
 li {
@@ -748,4 +747,24 @@ li {
 	nav{
 		visibility: hidden;
 	}
+}
+
+#hidden {
+	width: 10vw;
+	height: 5vw;
+	font-size: 2vw;
+	text-decoration: none;
+	color: #E6E6E6;
+	margin-left: 1vw;
+	margin-top: 1vw;
+}
+
+#fade {
+	width: 10vw;
+	height: 5vw;
+	font-size: 2vw;
+	text-decoration: none;
+	color: #E6E6E6;
+	margin-left: 1vw;
+	margin-top: 1vw;
 }
