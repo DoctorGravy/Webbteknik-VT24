@@ -1,5 +1,13 @@
 var menuItems = document.querySelectorAll('.kat, .dropknapp');
 
+function focuss(variable) {
+	variable.style.backgroundColor = "#E6E6E6";
+}
+
+function blurr(variable) {
+	variable.style.backgroundColor = "white";
+}
+
 menuItems.forEach(function(item) {
     item.addEventListener('mouseover', function() {
         mouseOver(item);
