@@ -7,7 +7,7 @@
 		<meta name="description" content="Produkty Vy för Pusselbutiken">
 		<link rel="stylesheet" href="style.css">
 	</head>
-	<body>
+	<body onload="getRandom()">
 		<header>
 			<div id="title">
 				<h1 id="logotext"><a href="index.html"><span style="color:#0030AD;">Pussel</span>butiken.se</a></h1> 
@@ -34,17 +34,17 @@
 		</header>
 		<div id="produktbox">
 			<h1 id="pusseltitel">Wasgij #04: A Day to Remember! (1000)</h1>
-			<div id="produktbild">	
-				<img id="produktimg" src="bilder/pussel1.png" alt="pussel1">
+			<div id="produktbox">	
+				<div  id="randImage"></div>
 			</div>
 			<div class="extrabild">
-				<img class="extra" src="bilder/extra1.png" alt="extra1">
+				<div  id="randImage2"></div>
 			</div>
 			<div class="extrabild">
-				<img class="extra" src="bilder/extra2.png" alt="extra2">
+				<div  id="randImage3"></div>
 			</div>
 			<div class="extrabild">
-				<img class="extra" src="bilder/extra3.png" alt="extra3">
+				<div  id="randImage4"></div>
 			</div>
 			<div id="köpsaker">
 				<div id="köpruta">
@@ -67,5 +67,6 @@
 				</div>
 			</div>
 		</div>
+		<script src="script.js"></script>
 	</body>
 </html>
