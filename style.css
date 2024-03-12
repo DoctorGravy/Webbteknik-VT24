@@ -65,6 +65,11 @@ body {
 
 }
 
+#gilla_knapp{
+	margin-left: 1vw;
+	margin-top: 1vw;
+}
+
 #search {
 	position: absolute;
 	margin-left: 32vw;
